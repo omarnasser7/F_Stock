@@ -128,7 +128,7 @@ def get_companies(market_code):
         return {
             "Aramco": "2222.SR",
             "Sabic": "2010.SR",
-            "Al-Rajhi": "1180.SR",
+            "Al-Rajhi": "1120.SR",
             "Leejam":"1830.SR"
         }
 
