@@ -55,7 +55,7 @@ def load_prediction_models():
 @st.cache_resource
 def load_prediction_scalers():
     scalers_1 = {
-        "Al-Rajhi": joblib.load('Al-Rajhi\scaler\Al-Rajhi_scaler_1.joblib'),
+        "Al-Rajhi": joblib.load('Al-Rajhi/scaler/Al-Rajhi_scaler_1.joblib'), 
         "Amazon": joblib.load('Amazon/scaler/Amazon_scaler_1.joblib'),
         "Apple": joblib.load('Apple/scaler/Apple_scaler_1.joblib'),
         "Aramco": joblib.load('Aramco/scaler/Aramco_scaler_1.joblib'),
