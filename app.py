@@ -64,7 +64,7 @@ def load_prediction_scalers():
         "Tesla": joblib.load('Tesla/scaler/Tesla_scaler_1.joblib')
     }
     scalers_5 = {
-        "Al-Rajhi": joblib.load('Al-Rajhi\scaler\Al-Rajhi_scaler_5.joblib'),
+        "Al-Rajhi": joblib.load('Al-Rajhi/scaler\Al-Rajhi_scaler_5.joblib'),
         "Amazon": joblib.load('Amazon/scaler/Amazon_scaler_5.joblib'),
         "Apple": joblib.load('Apple/scaler/Apple_scaler_5.joblib'),
         "Aramco": joblib.load('Aramco/scaler/Aramco_scaler_5.joblib'),
@@ -73,7 +73,7 @@ def load_prediction_scalers():
         "Tesla": joblib.load('Tesla/scaler/Tesla_scaler_5.joblib')
     }
     scalers_15 = {
-        "Al-Rajhi": joblib.load('Al-Rajhi\scaler\Al-Rajhi_scaler_15.joblib'),
+        "Al-Rajhi": joblib.load('Al-Rajhi/scaler\Al-Rajhi_scaler_15.joblib'),
         "Amazon": joblib.load('Amazon/scaler/Amazon_scaler_15.joblib'),
         "Apple": joblib.load('Apple/scaler/Apple_scaler_15.joblib'),
         "Aramco": joblib.load('Aramco/scaler/Aramco_scaler_15.joblib'),
